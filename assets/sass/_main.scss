@@ -253,25 +253,39 @@ body {
 
 
 /**************** Tabs Section Css ****************/
+
 .custom-nav-tabs-section {
 	@include media-breakpoint-up(md) {
 		position: absolute;
 		top: -30px;
+		width: 100%;
 	}
-	.custom-nav-tabs {
-		.nav-item {
-			border-right: 1px solid #DFDFEC;
-			&:last-child {
-				border-right: 0;
-			}
-			a {
-				font-size: 16px;
-				&.nav-link {
-					color: $secondary;
+	.custom-nav-tabs-div {
+		.custom-nav-tabs {
+			&.nav-pills {
+				flex-wrap: nowrap;
+    			white-space: nowrap;
+				@media (min-width: 767px) and (max-width: 1400px) {
+					flex-wrap: nowrap;
+					overflow: auto;
+					white-space: nowrap;
+					width: 100%;
 				}
-				&.nav-link {
-					&.active {
-						color: $white;
+			}
+			.nav-item {
+				border-right: 1px solid #DFDFEC;
+				&:last-child {
+					border-right: 0;
+				}
+				a {
+					font-size: 16px;
+					&.nav-link {
+						color: $secondary;
+					}
+					&.nav-link {
+						&.active {
+							color: $white;
+						}
 					}
 				}
 			}
@@ -291,6 +305,7 @@ body {
 		.custom-tooltipText{
 			opacity: 1;
 			transform: translateY(-10px);
+			z-index: 1;
 		}
 	}
 	.custom-tooltipText {
@@ -303,6 +318,7 @@ body {
 		font-size: 14px;
 		opacity: 0;
 		transition: all .5s;
+		z-index: -1;
 		&::after {
 			content: '';
 			border-width: 5px;
@@ -394,6 +410,7 @@ body {
 		tr {
 			th {
 				padding-bottom: 25px;
+				white-space: nowrap;
 			}
 		}
 	}
@@ -414,6 +431,7 @@ body {
 			td {
 				border-top: 0.5px solid rgba(223, 223, 236, 0.7);
 				vertical-align: middle;
+				white-space: nowrap;
 				&:last-child {
 					text-align: center;
 				}
