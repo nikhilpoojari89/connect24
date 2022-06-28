@@ -1,7 +1,7 @@
 {
-  "name": "socioladder",
+  "name": "connect24",
   "version": "1.0.0",
-  "description": "SocioLadder",
+  "description": "Connect24",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/socioladder/html.git"
+    "url": "git+https://github.com/nikhilpoojari89/connect24.git"
   },
-  "author": "SocioLadder",
-  "license": "SocioLadder",
+  "author": "Connect24",
+  "license": "Connect24",
   "devDependencies": {
     "bootstrap": "^4.5.3",
     "browser-sync": "^2.26.13",
@@ -27,7 +27,7 @@
     "popper.js": "^1.16.1"
   },
   "bugs": {
-    "url": "https://github.com/socioladder/html/issues"
+    "url": "https://github.com/nikhilpoojari89/connect24/issues"
   },
-  "homepage": "https://github.com/socioladder/html#readme"
+  "homepage": "https://github.com/nikhilpoojari89/connect24#readme"
 }
