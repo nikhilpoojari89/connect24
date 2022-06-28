@@ -5,7 +5,7 @@
 <!--********************** Main Heading Banner Section ***********************-->
 <section class="home-banner-section banner-section banner-section-auto mb-5">
     <div class="container-fluid custom-container">
-        <div class="row py-4 py-md-5 py-xl-5 mt-md-4 justify-content-start">
+        <div class="row py-4 py-lg-5 mt-4 mt-lg-5 justify-content-start">
 
             <div class="col-12">
                 <div class="bg-white p-4 custom-border rounded">

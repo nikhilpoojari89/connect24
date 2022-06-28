@@ -18,6 +18,9 @@ body {
 .banner-section {
 	&.home-banner-section {
 		padding: 85px 0 0;
+		@include media-breakpoint-down(md) {
+			padding: 140px 0 0;
+		}
 		.details-main-logo {
 			position: absolute;
 			top: -40px;

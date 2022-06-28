@@ -61,57 +61,62 @@
     </div>
 </section>
 
-<header class="sustaineverse-navbar">
-    <nav class="navbar navbar-expand-md py-md-0 d-none" id="mainNav">
-        <div class="justify-content-md-around aos-init aos-animate px-2 w-100" data-aos="fade-in">
+<header>
+    <nav class="navbar navbar-expand-xl py-xl-0" id="mainNav">
+        <div class="container-fluid justify-content-xl-around aos-init aos-animate" data-aos="fade-in">
 
-            <div class="row">
-                <div class="col-md-2">
-                    <!-- Logo -->
-                    <a class="navbar-brand pb-2" href="index.php">
-                        <img src="./public/images/png/logo.png" alt="SustainEverse Logo" width="200" title="SustainEverse Logo" />
-                    </a>
-                </div>
-                <div class="col-md-3 d-flex">
-                    <!-- Explore -->
-                    <div class="align-self-center">
-                        <a href="javascript:void(0);" class="btn btn-se rounded-pill"><i class="fas fa-bars"></i> Explore</a>
-                    </div>
+            <a class="navbar-brand d-xl-none" href="index.php">
+                <img src="./public/images/png/logo.png" alt="Connect 24 Logo" width="200" title="Connect 24 Logo" />
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ham-icon"><i class="fas fa-bars"></i></span>
+            </button>
 
-                    <!-- Custom Select -->
-                    <div class="align-self-center">
-                        <select class="form-control form-control-sm border-0 text-primary header-custom-select">
-                            <option>Halal Screener</option>
-                        </select>
+            <div class="navbar-collapse collapse justify-content-start align-self-start py-2 py-xl-0" id="navbarResponsive" style="height: 80px;">
+                <div class="navbar-nav gotham-book justify-content-around justify-content-lg-between h-100 w-100 flex-lg-column">
+             
+                    <div class="row">
+                        <div class="col-md-2 d-none d-xl-block order-xl-1">
+                            <!-- Logo -->
+                            <a class="navbar-brand pb-2" href="index.php">
+                                <img src="./public/images/png/logo.png" alt="Connect 24 Logo" width="200" title="Connect 24 Logo" />
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 d-flex order-1 order-lg-1 order-xl-2 justify-content-md-around justify-content-lg-start">
+                            <!-- Explore -->
+                            <div class="align-self-center">
+                                <a href="javascript:void(0);" class="btn btn-se rounded-pill"><i class="fas fa-bars"></i> Explore</a>
+                            </div>
+    
+                            <!-- Custom Select -->
+                            <div class="align-self-center ml-5 ml-md-0">
+                                <select class="form-control form-control-sm border-0 text-primary header-custom-select">
+                                    <option>Halal Screener</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 align-self-center order-3 order-lg-2 order-md-3 mt-3 mt-lg-0">
+                            <!-- Search Box -->
+                            <div class="form-group has-search mb-0">
+                                <span class="fa fa-search form-control-feedback"></span>
+                                <input type="text" class="form-control" placeholder="Search any stock globally">
+                            </div>  
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3 d-flex justify-content-md-around justify-content-lg-end order-2 order-lg-3 order-xl-4 mt-3 mt-md-0">
+                            <!-- Join -->
+                            <div class="align-self-center">
+                                <a href="javascript:void(0);" class="btn btn-se-outline rounded-pill">Join</a>
+                            </div>
+    
+                            <!-- Get the App -->
+                            <div class="align-self-center ml-5 ml-md-2">
+                                <a href="javascript:void(0);" class="btn btn-se rounded-pill">Get the App</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 align-self-center">
-                    <!-- Search Box -->
-                    <div class="form-group has-search mb-0">
-                        <span class="fa fa-search form-control-feedback"></span>
-                        <input type="text" class="form-control" placeholder="Search any stock globally">
-                    </div>  
-                </div>
-                <div class="col-md-3 d-flex justify-content-end">
-                    <!-- Join -->
-                    <div class="align-self-center">
-                        <a href="javascript:void(0);" class="btn btn-se-outline rounded-pill">Join</a>
-                    </div>
-
-                    <!-- Get the App -->
-                    <div class="align-self-center ml-2">
-                        <a href="javascript:void(0);" class="btn btn-se rounded-pill">Get the App</a>
-                    </div>
+                        
                 </div>
             </div>
-
-
-
-
-
-
-
-
 
         </div>
     </nav>

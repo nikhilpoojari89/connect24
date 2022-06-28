@@ -17,6 +17,9 @@ header {
 	position: absolute;
 	z-index: 2;
 	background: $white;
+	.navbar {
+		box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .2);
+	}
 
 	.header-custom-select {
 		&:focus {
