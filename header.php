@@ -89,10 +89,34 @@
                             </div>
     
                             <!-- Custom Select -->
-                            <div class="align-self-center ml-5 ml-md-0">
-                                <select class="form-control form-control-sm border-0 text-primary header-custom-select">
+                            <div class="align-self-center ml-5 ml-md-3">
+                                <!-- <select class="form-control form-control-sm border-0 text-primary header-custom-select">
                                     <option>Halal Screener</option>
-                                </select>
+                                </select> -->
+
+                                <div class="nav-item dropdown custom-dd">
+                                    <a class="nav-link dropdown-toggle title-color mr-3 mr-xl-2" data-toggle="dropdown" href="#">Halal Screener</a>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="etfScreenerchk">
+                                                <label class="custom-control-label" for="etfScreenerchk">ETF Screener</label>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="stockScreenerchk">
+                                                <label class="custom-control-label" for="stockScreenerchk">Stock Screener</label>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-item">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="recentlyViewedchk">
+                                                <label class="custom-control-label" for="recentlyViewedchk">Recently Viewed</label>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-4 align-self-center order-3 order-lg-2 order-md-3 mt-3 mt-lg-0">
