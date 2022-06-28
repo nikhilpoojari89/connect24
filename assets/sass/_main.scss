@@ -326,30 +326,31 @@ body {
 		width: 100%;
 	}
 	.custom-nav-tabs-div {
-		.custom-nav-tabs {
-			&.nav-pills {
-				flex-wrap: nowrap;
-    			white-space: nowrap;
-				@media (min-width: 767px) and (max-width: 1400px) {
-					flex-wrap: nowrap;
-					overflow: auto;
-					white-space: nowrap;
-					width: 100%;
-				}
+		.custom-nav-tabs-wrapper {
+			@include media-breakpoint-down(sm) {
+				border: 0!important;
 			}
-			.nav-item {
-				border-right: 1px solid #DFDFEC;
-				&:last-child {
-					border-right: 0;
-				}
-				a {
-					font-size: 16px;
-					&.nav-link {
-						color: $secondary;
+			.custom-nav-tabs {
+				&.nav-pills {
+					flex-wrap: nowrap;
+					white-space: nowrap;
+					@media (min-width: 767px) and (max-width: 1400px) {
+						flex-wrap: nowrap;
+						overflow: auto;
+						white-space: nowrap;
+						width: 100%;
 					}
-					&.nav-link {
-						&.active {
-							color: $white;
+				}
+				.nav-item {
+					a {
+						font-size: 16px;
+						&.nav-link {
+							color: $secondary;
+						}
+						&.nav-link {
+							&.active {
+								color: $white;
+							}
 						}
 					}
 				}

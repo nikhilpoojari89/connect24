@@ -58,27 +58,35 @@
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link active" id="pills-overview-tab" data-toggle="pill" href="#pills-overview" role="tab" aria-controls="pills-overview" aria-selected="true">Overview</a>
                                         </li>
+                                        <li class="custom-border-right"></li>
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-compliance-tab" data-toggle="pill" href="#pills-compliance" role="tab" aria-controls="pills-compliance" aria-selected="false">Compliance</a>
                                         </li>
+                                        <li class="custom-border-right"></li>
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-analyst-ratings-tab" data-toggle="pill" href="#pills-analyst-ratings" role="tab" aria-controls="pills-analyst-ratings" aria-selected="false">Analysts' Ratings</a>
                                         </li>
+                                        <li class="custom-border-right"></li>
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-forecasts-tab" data-toggle="pill" href="#pills-forecasts" role="tab" aria-controls="pills-forecasts" aria-selected="false">Forecasts</a>
                                         </li>
+                                        <li class="custom-border-right"></li>
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-insider-transactions-tab" data-toggle="pill" href="#pills-insider-transactions" role="tab" aria-controls="pills-insider-transactions" aria-selected="false">Insider Transactions</a>
                                         </li>
+                                        <li class="custom-border-right"></li>
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-ownership-tab" data-toggle="pill" href="#pills-ownership" role="tab" aria-controls="pills-ownership" aria-selected="false">Ownership</a>
                                         </li>
+                                        <li class="custom-border-right"></li>
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-related-commpanies-tab" data-toggle="pill" href="#pills-related-commpanies" role="tab" aria-controls="pills-related-commpanies" aria-selected="false">Related Companies</a>
                                         </li>
+                                        <li class="custom-border-right"></li>
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-latest-news-tab" data-toggle="pill" href="#pills-latest-news" role="tab" aria-controls="pills-latest-news" aria-selected="false">Latest News</a>
                                         </li>
+                                        <li class="custom-border-right"></li>
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-press-releases-tab" data-toggle="pill" href="#pills-press-releases" role="tab" aria-controls="pills-press-releases" aria-selected="false">Press Releases</a>
                                         </li>
